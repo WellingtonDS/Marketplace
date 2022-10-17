@@ -24,6 +24,8 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
@@ -38,9 +40,7 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {
-      "vue/html-quotes": "double"
-    }
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
