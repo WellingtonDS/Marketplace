@@ -26,10 +26,13 @@ export default {
 
     methods: {
         getProducts () {
-            api.get(this.url).then(response => {
-                this.productsTotal = Number(response.headers["x-total-count"]);
-                this.products = response.data;
-            })
+            this.products = null;
+            window.setTimeout(() => {
+                api.get(this.url).then(response => {
+                    this.productsTotal = Number(response.headers["x-total-count"]);
+                    this.products = response.data;
+                });
+            }, 1500);
         }
     },
 

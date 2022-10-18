@@ -1,6 +1,7 @@
 <template>      
     <section class="products-container">
-        <div v-if="products && products.length" class="products">
+        <transition mode="out-in">
+        <div v-if="products && products.length" class="products"  key="products">
             <div class="product" v-for="(product, index) in products" :key="index" name="product">
                 <router-link to="/">
                     <img v-if="product.photos" src="produtct.photos[0].src" alt="product.photos[0].title">
@@ -11,9 +12,12 @@
             </div>
         <ProductsPaginate :productsTotal="productsTotal"  :productsPerPage="productsPerPage"/>
         </div>
-        <div v-else-if="products && products.length === 0">
+        <div v-else-if="products && products.length === 0" key="no-result">
             <p class="no-result">Busca sem resultado. Tente buscar por outro termo.</p>
         </div>
+            <LoadingPaginate key="loading" v-else/>
+
+    </transition>
     </section>
 </template>
 
