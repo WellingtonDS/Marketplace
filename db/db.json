@@ -1,44 +1,44 @@
 {
-    "usuario": [
+    "user": [
       {
         "id": "andre@origamid.com",
         "email": "andre@origamid.com",
-        "nome": "André Rafael",
-        "senha": "123",
-        "rua": "Rua Ali Perto",
-        "cep": "12345678",
-        "numero": "25",
-        "estado": "RJ",
-        "cidade": "Rio de Janeiro"
+        "name": "André Rafael",
+        "password": "123",
+        "streat": "Rua Ali Perto",
+        "code": "12345678",
+        "number": "25",
+        "state": "RJ",
+        "city": "Rio de Janeiro"
       }
     ],
-    "produto": [
+    "product": [
       {
         "id": "notebook",
-        "nome": "Notebook",
-        "usuario_id": "andre@origamid.com",
-        "preco": "4999",
-        "vendido": "false",
-        "descricao": "Esse é um novo notebook.",
-        "fotos": null
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
       },
       {
         "id": "smartphone",
-        "nome": "Smartphone",
-        "usuario_id": "andre@origamid.com",
-        "preco": "1999",
-        "vendido": "false",
-        "descricao": "Esse é um novo smartphone.",
-        "fotos": null
+        "name": "Smartphone",
+        "user_id": "andre@origamid.com",
+        "price": "1999",
+        "sold": "false",
+        "description": "Esse é um novo smartphone.",
+        "photos": null
       },
       {
         "id": "tablet",
-        "nome": "Tablet",
-        "usuario_id": "andre@origamid.com",
-        "preco": "1399",
-        "vendido": "false",
-        "descricao": "Esse é um novo tablet.",
-        "fotos": null
+        "name": "Tablet",
+        "user_id": "andre@origamid.com",
+        "price": "1399",
+        "sold": "false",
+        "description": "Esse é um novo tablet.",
+        "photos": null
       }
     ]
   }
