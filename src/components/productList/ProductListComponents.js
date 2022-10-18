@@ -1,23 +1,38 @@
 import { api } from '@/service/service';
+import { serialize } from '@/helpers/Helpers';
 
 export default {
     name: "ProductList",
     data () {
         return {
-            products: null
+            products: null,
+            productsPerPage: 9
+        }
+    },
+
+    computed: {
+        url() {
+            const query = serialize(this.$route.query);
+            
+            return `/product?_limit=${this.productsPerPage}${query}`;
         }
     },
 
     methods: {
         getProducts () {
-            api.get('/product').then(response => {
+            api.get(this.url).then(response => {
                 this.products = response.data;
-                console.log("aqui", this.products);
             })
+        }
+    },
+
+    watch: {
+        url() {
+            this.getProducts();
         }
     },
 
     created() {
         this.getProducts();
-    },
+    }
 }

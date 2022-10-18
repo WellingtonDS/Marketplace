@@ -5,7 +5,6 @@
             <p class="price">{{product.price}}</p>
             <h2 class="title">{{product.name}}</h2>
             <p class="description"> {{product.desciption}}</p>
-
         </div>
     </section>
 </template>

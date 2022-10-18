@@ -1,5 +1,8 @@
 <template>
-    <input type="text">
+    <form >
+        <input type="text" name="busca" id="busca" v-model="busca" >
+        <input type="submit" id="lupa" value="buscar" @click.prevent="buscarProduto">
+    </form>
 </template>
 
 <script lang="js">
