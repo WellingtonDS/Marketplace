@@ -1,7 +1,7 @@
 <template>      
     <section class="products-container">
         <div v-if="products && products.length" class="products">
-            <div class="product" v-for="product in products" :key="product.id" name="product">
+            <div class="product" v-for="(product, index) in products" :key="index" name="product">
                 <router-link to="/">
                     <img v-if="product.photos" src="produtct.photos[0].src" alt="product.photos[0].title">
                     <p class="price">{{product.price}}</p>
@@ -9,6 +9,7 @@
                     <p class="description"> {{product.desciption}}</p>
                 </router-link>
             </div>
+        <ProductsPaginate :productsTotal="productsTotal"  :productsPerPage="productsPerPage"/>
         </div>
         <div v-else-if="products && products.length === 0">
             <p class="no-result">Busca sem resultado. Tente buscar por outro termo.</p>

@@ -1,12 +1,18 @@
 import { api } from '@/service/service';
 import { serialize } from '@/helpers/Helpers';
+import ProductsPaginate from '@/components/productspagination/ProductsPaginate.vue';
 
 export default {
     name: "ProductList",
+    components: {
+        ProductsPaginate
+    },
+
     data () {
         return {
             products: null,
-            productsPerPage: 9
+            productsPerPage: 1,
+            productsTotal: 0
         }
     },
 
@@ -21,6 +27,7 @@ export default {
     methods: {
         getProducts () {
             api.get(this.url).then(response => {
+                this.productsTotal = Number(response.headers["x-total-count"]);
                 this.products = response.data;
             })
         }
