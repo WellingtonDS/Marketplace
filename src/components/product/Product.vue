@@ -1,6 +1,6 @@
 <template>
     <form >
-        <input type="text" name="busca" id="busca" v-model="busca" >
+        <input type="text" name="busca" id="busca" v-model="busca"  placeholder="Buscar...">
         <input type="submit" id="lupa" value="buscar" @click.prevent="buscarProduto">
     </form>
 </template>

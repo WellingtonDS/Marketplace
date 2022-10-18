@@ -39,6 +39,87 @@
         "sold": "false",
         "description": "Esse é um novo tablet.",
         "photos": null
+      },
+      {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "andre@origamid.com",
+        "price": "1999",
+        "sold": "false",
+        "description": "Esse é um novo smartphone.",
+        "photos": null
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "user_id": "andre@origamid.com",
+        "price": "1399",
+        "sold": "false",
+        "description": "Esse é um novo tablet.",
+        "photos": null
+      },
+      {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "andre@origamid.com",
+        "price": "1999",
+        "sold": "false",
+        "description": "Esse é um novo smartphone.",
+        "photos": null
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "user_id": "andre@origamid.com",
+        "price": "1399",
+        "sold": "false",
+        "description": "Esse é um novo tablet.",
+        "photos": null
+      },
+      {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "user_id": "andre@origamid.com",
+        "price": "1999",
+        "sold": "false",
+        "description": "Esse é um novo smartphone.",
+        "photos": null
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "user_id": "andre@origamid.com",
+        "price": "1399",
+        "sold": "false",
+        "description": "Esse é um novo tablet.",
+        "photos": null
       }
     ]
   }
