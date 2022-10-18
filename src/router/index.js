@@ -1,6 +1,7 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import ProductView from '../views/ProductView.vue';
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,12 @@ const router = new VueRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/product/:id',
+      name: 'product',
+      component: ProductView,
+      props: true
     }
   ], 
   scrollBehavior() {
