@@ -8,7 +8,7 @@
          <label for="password">Senha</label>
          <input type="password" id="password" name="password" v-model="password">
          <label for="code">Cep</label>
-         <input type="text" id="code" name="code" v-model="code">
+         <input type="text" id="code" name="code" v-model="code" @keyup="preencherCep" v-mask="'#####-###'">
          <label for="street">Rua</label>
          <input type="text" id="street" name="street" v-model="street">
          <label for="number">Número</label>

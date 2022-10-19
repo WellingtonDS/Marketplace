@@ -1,4 +1,5 @@
 import { mapFields } from "@/helpers/Helpers";
+import {getCep} from "@/service/service"
 
 export default {
     name: "FormUser",
@@ -8,5 +9,20 @@ export default {
             base: "user",
             mutation: "UPDATE_USER" 
         })
-    }
+    },
+
+    methods: {
+        preencherCep() {
+           const cep = this.code.replace(/\D/g, "");
+           if(cep.length === 8) {
+            getCep(cep).then(response => {
+                this.street = response.data.logradouro;
+                this.district = response.data.bairro;
+                this.city = response.data.localidade;
+                this.state = response.data.uf;
+            })
+           }
+
+        }
+    },
 }
