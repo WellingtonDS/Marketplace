@@ -1,126 +1,149 @@
 {
-    "user": [
-      {
-        "id": "andre@origamid.com",
-        "email": "andre@origamid.com",
-        "name": "André Rafael",
-        "password": "123",
-        "street": "Rua Ali Perto",
-        "code": "12345678",
-        "number": "25",
-        "state": "RJ",
-        "city": "Rio de Janeiro"
-      }
-    ],
-    "product": [
-      {
-        "id": "notebook",
-        "name": "Notebook",
-        "user_id": "andre@origamid.com",
-        "price": "4999",
-        "sold": "false",
-        "description": "Esse é um novo notebook.",
-        "photos": null
-      },
-      {
-        "id": "smartphone",
-        "name": "Smartphone",
-        "user_id": "andre@origamid.com",
-        "price": "1999",
-        "sold": "false",
-        "description": "Esse é um novo smartphone.",
-        "photos": null
-      },
-      {
-        "id": "tablet",
-        "name": "Tablet",
-        "user_id": "andre@origamid.com",
-        "price": "1399",
-        "sold": "false",
-        "description": "Esse é um novo tablet.",
-        "photos": null
-      },
-      {
-        "id": "notebook",
-        "name": "Notebook",
-        "user_id": "andre@origamid.com",
-        "price": "4999",
-        "sold": "false",
-        "description": "Esse é um novo notebook.",
-        "photos": null
-      },
-      {
-        "id": "smartphone",
-        "name": "Smartphone",
-        "user_id": "andre@origamid.com",
-        "price": "1999",
-        "sold": "false",
-        "description": "Esse é um novo smartphone.",
-        "photos": null
-      },
-      {
-        "id": "tablet",
-        "name": "Tablet",
-        "user_id": "andre@origamid.com",
-        "price": "1399",
-        "sold": "false",
-        "description": "Esse é um novo tablet.",
-        "photos": null
-      },
-      {
-        "id": "notebook",
-        "name": "Notebook",
-        "user_id": "andre@origamid.com",
-        "price": "4999",
-        "sold": "false",
-        "description": "Esse é um novo notebook.",
-        "photos": null
-      },
-      {
-        "id": "smartphone",
-        "name": "Smartphone",
-        "user_id": "andre@origamid.com",
-        "price": "1999",
-        "sold": "false",
-        "description": "Esse é um novo smartphone.",
-        "photos": null
-      },
-      {
-        "id": "tablet",
-        "name": "Tablet",
-        "user_id": "andre@origamid.com",
-        "price": "1399",
-        "sold": "false",
-        "description": "Esse é um novo tablet.",
-        "photos": null
-      },
-      {
-        "id": "notebook",
-        "name": "Notebook",
-        "user_id": "andre@origamid.com",
-        "price": "4999",
-        "sold": "false",
-        "description": "Esse é um novo notebook.",
-        "photos": null
-      },
-      {
-        "id": "smartphone",
-        "name": "Smartphone",
-        "user_id": "andre@origamid.com",
-        "price": "1999",
-        "sold": "false",
-        "description": "Esse é um novo smartphone.",
-        "photos": null
-      },
-      {
-        "id": "tablet",
-        "name": "Tablet",
-        "user_id": "andre@origamid.com",
-        "price": "1399",
-        "sold": "false",
-        "description": "Esse é um novo tablet.",
-        "photos": null
-      }
-    ]
-  }
-  
+  "user": [
+    {
+      "id": "andre@origamid.com",
+      "email": "andre@origamid.com",
+      "name": "André Rafael",
+      "password": "123",
+      "street": "Rua Ali Perto",
+      "code": "12345678",
+      "number": "25",
+      "state": "RJ",
+      "city": "Rio de Janeiro"
+    },
+    {
+      "id": "w_santos1993@outlook.com",
+      "name": "Wellington dos Santos",
+      "email": "w_santos1993@outlook.com",
+      "password": "1616541",
+      "code": "05842-080",
+      "street": "Rua João Carneiro",
+      "number": "12",
+      "district": "Jardim Casablanca",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    {
+      "id": "w_santos1993@outlook.com.br",
+      "name": "gss servicos administrativos e de portaria ltda",
+      "email": "w_santos1993@outlook.com.br",
+      "password": "12323132132",
+      "code": "05640-004",
+      "street": "Rua João Carneiro",
+      "number": "12",
+      "district": "Jardim Londrina",
+      "city": "SÃO PAULO",
+      "state": "SP"
+    }
+  ],
+  "product": [
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "andre@origamid.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "andre@origamid.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "andre@origamid.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "andre@origamid.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "andre@origamid.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "andre@origamid.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "andre@origamid.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "andre@origamid.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "andre@origamid.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "andre@origamid.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "andre@origamid.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "andre@origamid.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    }
+  ]
+}

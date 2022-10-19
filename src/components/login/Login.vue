@@ -4,7 +4,7 @@
       <transition mode="out-in">
         <button v-if="!create" class="btn" @click="create = true">Criar Conta</button>
         <FormUser v-else>
-          <button class="btn btn-form">Criar Usuário</button>
+          <button class="btn btn-form" @click.prevent="createUser">Criar Usuário</button>
         </FormUser>  
       </transition>
 
