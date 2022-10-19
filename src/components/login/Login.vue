@@ -1,5 +1,14 @@
 <template>
-    <p>Login Criar</p>
+    <section>
+      <h2>Crie a Sua Conta</h2>
+      <transition mode="out-in">
+        <button v-if="!create" class="btn" @click="create = true">Criar Conta</button>
+        <FormUser v-else>
+          <button class="btn btn-form">Criar Usuário</button>
+        </FormUser>  
+      </transition>
+
+    </section>
   </template>
   
   <script lang="js">
