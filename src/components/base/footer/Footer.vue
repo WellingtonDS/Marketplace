@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Footer</p>
+        <p> &copy; Todos os direitos reservados {{ new Date().getFullYear() }} </p>
     </footer>
 </template>
 

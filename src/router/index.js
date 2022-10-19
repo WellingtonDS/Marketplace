@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import ProductView from '../views/ProductView.vue';
 import LoginView from '../views/Login.vue';
+import UserView from '../views/user/User.vue';
 
 Vue.use(VueRouter)
 
@@ -26,6 +27,11 @@ const router = new VueRouter({
       path: "/login",
       name: "login",
       component: LoginView
+    },
+    {
+      path: "/user",
+      name: "user",
+      component: UserView
     }
   ], 
   scrollBehavior() {
