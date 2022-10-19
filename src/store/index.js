@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  strict: true,
   state: {
     login: false,
     user: {
@@ -13,25 +14,27 @@ export default new Vuex.Store({
       email: "",
       password: "",
       code: "",
-      streat: "",
+      street: "",
       number: "",
       district: "",
       city: "",
       state: ""
     }
   },
+
   getters: {
   },
+
   mutations: {
     UPDATE_LOGIN(state, payload) {
       state.login = payload;
     },
 
     UPDATE_USER(state, payload) {
-      state.user = payload;
+      state.user = Object.assign({}, state.user, payload);
     },
-
   },
+
   actions: {
     getUser(context, payload) {
       api.get(`/user/${payload}`).then(response => {
@@ -40,6 +43,7 @@ export default new Vuex.Store({
       });
     }
   },
+
   modules: {
   }
 })

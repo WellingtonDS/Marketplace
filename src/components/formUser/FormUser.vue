@@ -7,18 +7,18 @@
          <input type="email" id="emal" name="email" v-model="email">
          <label for="password">Senha</label>
          <input type="password" id="password" name="password" v-model="password">
-         <label for="cep">Cep</label>
-         <input type="text" id="cep" name="cep" v-model="cep">
-         <label for="rua">Rua</label>
-         <input type="text" id="rua" name="rua" v-model="rua">
-         <label for="name">Número</label>
-         <input type="text" id="numero" name="numero" v-model="numero">
-         <label for="name">Bairro</label>
-         <input type="text" id="bairro" name="bairro" v-model="bairro">
-         <label for="name">Cidade</label>
-         <input type="text" id="cidade" name="cidade" v-model="cidade">
-         <label for="name">Estado</label>
-         <input type="text" id="estado" name="estado" v-model="estado">
+         <label for="code">Cep</label>
+         <input type="text" id="code" name="code" v-model="code">
+         <label for="street">Rua</label>
+         <input type="text" id="street" name="street" v-model="street">
+         <label for="number">Número</label>
+         <input type="text" id="number" name="number" v-model="number">
+         <label for="district">Bairro</label>
+         <input type="text" id="district" name="district" v-model="district">
+         <label for="city">Cidade</label>
+         <input type="text" id="city" name="city" v-model="city">
+         <label for="state">Estado</label>
+         <input type="text" id="state" name="state" v-model="state">
          <div class="button">
             <slot></slot>
          </div> 
