@@ -34,6 +34,30 @@
       "district": "Jardim Londrina",
       "city": "SÃO PAULO",
       "state": "SP"
+    },
+    {
+      "id": "examplo@gmail.com",
+      "name": "marcoc",
+      "email": "examplo@gmail.com",
+      "password": "123",
+      "code": "05756-230",
+      "street": "Rua Caratatina",
+      "number": "15",
+      "district": "Vila Nova Pirajussara",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    {
+      "id": "example@gmail.com",
+      "name": "felipe",
+      "email": "example@gmail.com",
+      "password": "123",
+      "code": "05836-350",
+      "street": "Avenida Tomás de Sousa",
+      "number": "13",
+      "district": "Jardim Monte Azul",
+      "city": "São Paulo",
+      "state": "SP"
     }
   ],
   "product": [
