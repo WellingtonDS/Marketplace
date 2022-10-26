@@ -71,15 +71,6 @@
       "photos": null
     },
     {
-      "id": "smartphone",
-      "name": "Smartphone",
-      "user_id": "andre@origamid.com",
-      "price": "1999",
-      "sold": "false",
-      "description": "Esse é um novo smartphone.",
-      "photos": null
-    },
-    {
       "id": "tablet",
       "name": "Tablet",
       "user_id": "andre@origamid.com",
