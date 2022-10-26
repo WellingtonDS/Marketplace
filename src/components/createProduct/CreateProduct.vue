@@ -1,7 +1,17 @@
 <template>
 
 <div>
-    <h1>product</h1>
+    <form class="add-product">
+        <label for="name">Nome</label>
+        <input id="name" name="name" type="text" v-model="product.name">
+        <label for="price">Preço (R$)</label>
+        <input id="price" name="price" type="number" v-model="product.price">
+        <label for="photo">Foto</label>
+        <input id="photo" name="photo" type="file" ref="photos">
+        <label for="description">Descrição</label>
+        <textarea name="description" id="description" v-model="product.description"></textarea>
+        <input class="btn" type="button" value="Adicionar Produto" @click.prevent="adicionarProduto">
+    </form>
 </div>
     
 </template>
