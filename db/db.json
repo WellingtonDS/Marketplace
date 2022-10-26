@@ -2,14 +2,15 @@
   "user": [
     {
       "id": "andre@origamid.com",
-      "email": "andre@origamid.com",
       "name": "André Rafael",
-      "password": "123",
+      "email": "andre@origamid.com",
+      "password": "12345",
+      "code": "12345-678",
       "street": "Rua Ali Perto",
-      "code": "12345678",
-      "number": "25",
-      "state": "RJ",
-      "city": "Rio de Janeiro"
+      "number": "150",
+      "district": "teste2",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
     },
     {
       "id": "w_santos1993@outlook.com",
@@ -183,14 +184,6 @@
       "photos": null,
       "user_id": "",
       "id": "SWz8fXH"
-    },
-    {
-      "name": "teste",
-      "price": "1250",
-      "description": "asdasdsa",
-      "photos": null,
-      "user_id": "andre@origamid.com",
-      "id": "FVR2mAA"
     },
     {
       "name": "teste 1",
