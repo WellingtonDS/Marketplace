@@ -11,7 +11,7 @@ export default {
     data () {
         return {
             products: null,
-            productsPerPage: 1,
+            productsPerPage: 6,
             productsTotal: 0
         }
     },

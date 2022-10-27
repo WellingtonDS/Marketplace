@@ -16,5 +16,5 @@ export default ProductsPaginateComponent
 </script>
 
 <style lang="scss" scoped>
-    @import './ProductsPaginate.scss'
+@import './ProductsPaginate.scss'
 </style>
