@@ -117,6 +117,53 @@
         "state": "SP"
       },
       "id": 2
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 5
     }
   ],
   "product": [
