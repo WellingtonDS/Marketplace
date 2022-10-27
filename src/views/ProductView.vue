@@ -9,8 +9,11 @@
       <div class="info">
         <h1>{{product.name}}</h1>
         <p class="price">{{product.price | NumberPrice}}</p>
-        <p class="description">{{product.description}}</p>
-        <button class="btn" v-if="product.sold === 'false'">Comprar</button>
+        <p class="description">{{product.description}}</p>        
+        <transition mode="out-in" v-if="product.sold === 'false'">
+          <button class="btn" v-if="!finalizar" @click.prevent="finalizar = true">Comprar</button>
+          <SoldProduct v-else :product="product"/>
+        </transition>
         <button v-else class="btn" disabled>product Vendido</button>
       </div>
     </div>
@@ -19,16 +22,20 @@
 </template>
 
 <script lang="js">
-
+import SoldProduct from "@/components/soldProduct/SoldProduct.vue";
 import { api } from "@/service/service";
 
 export default {
   name: "ProductView",
   props: ["id"],
+  components: {
+    SoldProduct
+  },
 
   data() {
     return {
-      product: null
+      product: null,
+      finalizar: false
     };
   },
 

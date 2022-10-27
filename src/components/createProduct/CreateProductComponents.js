@@ -8,7 +8,8 @@ export default {
                 name: "",
                 price: "",
                 description: "",
-                photos: null
+                photos: null,
+                sold: "false"
             }
         }
     },

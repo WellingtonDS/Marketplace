@@ -1,12 +1,14 @@
 <template>
 
      <form>
-         <label for="name">Nome</label>
-         <input type="text" id="name" name="name" v-model="name">
-         <label for="email">Email</label>
-         <input type="email" id="emal" name="email" v-model="email">
-         <label for="password">Senha</label>
-         <input type="password" id="password" name="password" v-model="password">
+        <div class="user" v-if="mostrarDados">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" v-model="name">
+            <label for="email">Email</label>
+            <input type="email" id="emal" name="email" v-model="email">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" v-model="password">
+        </div>
          <label for="code">Cep</label>
          <input type="text" id="code" name="code" v-model="code" @keyup="preencherCep" v-mask="'#####-###'">
          <label for="street">Rua</label>

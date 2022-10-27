@@ -1,10 +1,14 @@
 @import '../../styles/colors.scss';
 @import '../../styles/variables.scss';
 
-form {
+form, .user {
     display: grid;
     grid-template-columns: 80px 1fr;
     align-items: center;
+}
+
+.user {
+    grid-column: 1 / 3;
 }
 
 .button {

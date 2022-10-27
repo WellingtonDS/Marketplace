@@ -59,6 +59,64 @@
       "district": "Jardim Monte Azul",
       "city": "São Paulo",
       "state": "SP"
+    },
+    {
+      "id": "joao@teste.com.br",
+      "name": "Joao",
+      "email": "joao@teste.com.br",
+      "password": "12345",
+      "code": "05756-230",
+      "street": "Rua Caratatina",
+      "number": "12",
+      "district": "Vila Nova Pirajussara",
+      "city": "São Paulo",
+      "state": "SP"
+    }
+  ],
+  "transacao": [
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "joao@teste.com.br",
+      "vendedor_id": "andre@origamid.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "andre@origamid.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "05756-230",
+        "street": "Rua Caratatina",
+        "number": "12",
+        "district": "Vila Nova Pirajussara",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "id": 2
     }
   ],
   "product": [

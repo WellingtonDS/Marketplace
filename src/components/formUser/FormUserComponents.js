@@ -8,7 +8,10 @@ export default {
             fields: ["name", "email", "password", "code", "street", "number", "district", "city", "state"],
             base: "user",
             mutation: "UPDATE_USER" 
-        })
+        }),
+         mostrarDados () {
+            return (!this.$store.state.login || (this.$route.name === 'editar'))
+         }
     },
 
     methods: {
